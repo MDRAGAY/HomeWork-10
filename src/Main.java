@@ -8,6 +8,11 @@ public class Main {
 
     public static void task1() {
         System.out.println("Задача 1");
+        String firstName = "Mikhail";
+        String middleName = "Dragay";
+        String lastName = "Sergeevich";
+        String fullName = middleName + " " + firstName + " " + lastName;
+        System.out.println("ФИО сотрудника — " + fullName);
 
     }
 
