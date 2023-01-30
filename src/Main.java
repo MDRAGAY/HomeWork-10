@@ -25,6 +25,13 @@ public class Main {
 
     public static void task3() {
         System.out.println("Задача 3");
+        String middleName = "Иванов";
+        String firstName = "Семён";
+        firstName = firstName.replace("ё", "е");
+        String lastName = "Семёнович";
+        lastName = lastName.replace("ё", "е");
+        String fullName = middleName + " " + firstName + " " + lastName;
+        System.out.println("ФИО сотрудника — " + fullName);
 
     }
 }
